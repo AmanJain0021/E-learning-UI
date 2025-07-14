@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 17, 71);
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+.container {
+    background-color: #e8e3e3;
+    height: 100vh;
+    border: 2px solid rgb(241, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#heading{
+    margin-right: 743px;
+    margin-bottom: 3px;
+    
+}
+#para{
+  color: rgb(12 1 1);
+    margin-right: 646px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: large;
+}
+.progress{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  
+}
+.progress input{
+    margin-top: 10px
+}
+ 
